@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZWhite Career Goals</title>
+    <title>Zach White Career Goals</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
     <header>
-        <!--Name and contact info, Nav-->
         <h1>Zach White</h1>
+        
+        <div id="DateTime"></div>
+        
         <h3>Toronto, Ontario, Canada<br>
             Phone: <a href="tel:1-999-987-6543">1 (999) 987-6543</a><br>
             Email: <a href="Mailto:Zwhit34@wgu.edu">Zwhit34@wgu.edu</a><br>
@@ -17,12 +22,23 @@
 
         <nav>
             <h4>
-                <a href="/webdevf/resume.html">Resume</a>
-                <a href="/webdevf/coverLetter.html">Cover Letter</a>
-                <a href="/webdevf/careerGoals.html">Career Goals</a>
+                <a href="/webdevf/resume.html">Resume</a> | 
+                <a href="/webdevf/coverLetter.html">Cover Letter</a> | 
+                <a href="/webdevf/careerGoals.html" class="active">Career Goals</a>
             </h4>
         </nav>
     </header>
 
+
+    <footer id="footer">
+        <a href="careerGoals.form">Contact Me!</a>
+    </footer>
 </body>
+
+<script>
+    const today = new Date();
+    document.getElementById("DateTime").textContent = today;
+    console.log("Testing Testing! 1 2 3!")
+</script>
+
 </html>

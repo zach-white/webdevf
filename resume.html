@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZWhite Resume</title>
+    <title>Zach White Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     
     <header>
-        <!--Name and contact info, Nav-->
         <h1>Zach White</h1>
+        
+        <div id="DateTime"></div>
+        
         <h3>Toronto, Ontario, Canada<br>
             Phone: <a href="tel:1-999-987-6543">1 (999) 987-6543</a><br>
             Email: <a href="Mailto:Zwhit34@wgu.edu">Zwhit34@wgu.edu</a><br>
@@ -18,26 +22,20 @@
 
         <nav>
             <h4>
-                <a href="/webdevf/resume.html">Resume</a>
-                <a href="/webdevf/coverLetter.html">Cover Letter</a>
+                <a href="/webdevf/resume.html" class="active">Resume</a> | 
+                <a href="/webdevf/coverLetter.html">Cover Letter</a> | 
                 <a href="/webdevf/careerGoals.html">Career Goals</a>
             </h4>
         </nav>
-       
-        <div>
-            <span><!---for JS script date/time, need js to write to console?--></span>
-        </div>
     </header>
     
     <main>
         <article id="Summary">
             <h2>Summary</h2>
-            <p>
-                Recent <strong>Software Engineering graduate</strong> with a strong foundation
-                in Python Scripting and Java and a background in team management.<br>
-                Proven ability to meet deadlines and deliver high quality work and communication.<br>
-                Currently seeking work where my skills in leadership and programming can be
-                leveraged to ship impactful results on high quality projects.
+            <p >
+                <strong>Software Engineering graduate</strong> with a <em>strong</em> foundation in <em>Python scripting and Java programming</em> and a background in <em>Team Management.</em>
+                <br>Proven ability to meet deadlines and deliver high quality work and communication.
+                <br>Currently seeking work where my skills in leadership and programming can be leveraged to ship impactful results on high quality projects.
             </p>
         </article>
         
@@ -47,8 +45,8 @@
             <h2>Education</h2>
             <p>
                 <span style="font-weight: bold;">Bachelor of Science: Software Engineering /</span>
-                <span style="color: grey;"> Remote, Self-Paced</span><br>
-                <span style="font-weight: bold;">Western Governors University, United States</span> - 5/2025
+                <span style="color: gray;"> Remote, Self-Paced</span><br>
+                <span style="font-weight: bold;">Western Governors University, United States /</span> In Progress
             </p>
         </section>
         
@@ -59,32 +57,32 @@
             
             <p>
                 <span style="font-weight: bold;">Software Engineer Intern /</span>
-                <span style="color: grey;"> E-Corp</span><br>
-                <span style="font-weight: bold;">NYC, USA</span> - 5/2024 - 9/2024
+                <span style="color: gray;"> A-Corp</span><br>
+                <span style="font-weight: bold;">San Francisco, USA /</span> 5/2024 - 9/2024
             </p>
             <ul id="work-points">
-                <li>Lorem Ipsum Lorem Ipsum</li>
-                <li>Lorem Ipsum Lorem Ipsum</li>
+                <li>Worked closely with Senior Software Engineer Mentor, completing programming deadlines</li>
+                <li>Expanded on a live project and increased efficiency of a feature by 20%, exceeding internship goals</li>
             </ul>
             
             <p>
-                <span style="font-weight: bold;">Nightclub Manager /</span>
+                <span style="font-weight: bold;">Part Time Nightclub Manager /</span>
                 <span style="color: grey;"> The Square</span><br>
-                <span style="font-weight: bold;">San Francisco, USA </span> - 5/2025 - 9/2025
+                <span style="font-weight: bold;">San Francisco, USA /</span> 3/2024 - 3/2025
             </p>
             <ul id="work-points">
-                <li>Lorem Ipsum Lorem Ipsum</li>
-                <li>Lorem Ipsum Lorem Ipsum</li>
+                <li>Trained Barbacks on time management and urgency, decreasing bartender wait-time for products by 50%</li>
+                <li>Improved cleanliness of bars and venues by overhauling closing procedures, creating a more harmonious and inviting space</li>
             </ul>
             
             <p>
                 <span style="font-weight: bold;">Dispatcher /</span>
-                <span style="color: grey;"> Blue Cab</span>
-                <span style="font-weight: bold;">San Francisco, USA </span> - 5/2025 - 9/2025
+                <span style="color: grey;"> Blue Cab</span><br>
+                <span style="font-weight: bold;">San Francisco, USA /</span> 3/2022 - 1/2024
             </p>
             <ul id="work-points">
-                <li>Lorem Ipsum Lorem Ipsum</li>
-                <li>Lorem Ipsum Lorem Ipsum</li>
+                <li>Worked with Cab Drivers and CSRs to ensure timely pickup and drop off of clients, increasing overall satisfaction</li>
+                <li>Helped train new CSRs on call taking and in-house software, decreasing ramp up time by 15%</li>
             </ul>
         </section>
         
@@ -92,27 +90,28 @@
         
         <section id="Skills">
             <h2>Skills</h2>
-            <!---don't forget to add a table caption!-->
             <table>
+                <caption style="font-weight: bold;">Soft Skills and Technical Skills</caption>
+                <thead>
+                    <tr>
+                        <th>Soft skills</th>
+                        <th>Software</th>
+                        <th>Programming languages</th>
+                        <th>Websites</th>
+                    </tr>
+                </thead>
                 <tr>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
+                    <td>Team Management</td>
+                    <td class="line">VSCode</td>
+                    <td class="line">Python</td>
+                    <td class="line">Microsoft Suite</td>
                 </tr>
                 
                 <tr>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                </tr>
-                
-                <tr>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
-                    <td>a</td>
+                    <td>Organization</td>
+                    <td class="line">Citrix</td>
+                    <td class="line">Java</td>
+                    <td class="line">Github</td>
                 </tr>
             </table>
         </section>
@@ -120,8 +119,15 @@
         <hr>
     </main>
     
-    <footer>
-
+    <footer id="footer">
+        <a href="careerGoals.form">Contact Me!</a>
     </footer>
 </body>
+
+<script>
+    const today = new Date();
+    document.getElementById("DateTime").textContent = today;
+    console.log("Testing Testing! 1 2 3!")
+</script>
+
 </html>
