@@ -32,10 +32,68 @@
 
     <main>
     
+
+
+        <section id="form">
+            <form action="https://wp.zybooks.com/forms-viewer.php" method="post" enctype="multipart/form-data">
+                <label for="firstName">First Name</label><br>
+                <input type="text" name="firstName" id="firstName"><br>
+                
+                <label for="lastName">Last Name</label><br>
+                <input type="text" name="lastName" id="lastName"><br>
+                
+                <label for="companyName">Company</label><br>
+                <input type="text" name="companyName" id="companyName"><br>
+                
+                <label for="yourEmail">Email</label><br>
+                <input type="email" name="yourEmail" id="yourEmail"><br>
+                
+                <label for="yourPhone">Phone Number</label><br>
+                <input type="tel" name="yourPhone" id="yourPhone">
+                
+                <br><br>
+
+                <label for="message">Leave a Message</label><br>
+                <textarea name="message" id="message"></textarea><br>
+                
+                <br><br>
+
+                <fieldset>
+                    <legend>Best Contact Time</legend>
+                    
+                    <input type="radio" id="am" name="bestTime" value="am">
+                    <label for="am">A.M.</label><br>
+                    
+                    <input type="radio" id="pm" name="bestTime" value="pm">
+                    <label for="pm">P.M.</label><br>
+                    
+                    <input type="radio" id="anytime" name="bestTime" value="anytime">
+                    <label for="anytime">Anytime</label>
+                </fieldset>
+                
+                <br><br>
+                
+                <label for="contactMethod">Preferred Contact Method</label>
+                
+                <select name="contactMethod" id="contactMethod">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
+                
+                <br><br>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                
+            </form>
+        </section>
+        
         <hr>
     </main>
+    
     <footer id="footer">
-        <a href="careerGoals.form">Contact Me!</a>
+        <a href="careerGoals.html#form">Contact Me!</a>
     </footer>
 </body>
 
