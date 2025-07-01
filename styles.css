@@ -3,6 +3,10 @@
     background-color: lightyellow;
 }
 
+ul{
+    list-style-type: disc;
+}
+
 nav a:visited{
     color: blue;
 }
